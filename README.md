@@ -26,9 +26,9 @@ The target audience for this tutorial is anyone who loves or/and works in IT.
 
 ## Results of completing the tutorial
 
-By the end of this tutorial, you'll make your own repository looking like [this one](https://github.com/Devopsingh/iac-tutorial).
+By the end of this tutorial, you'll make your own repository looking like [this one](https://github.com/Devopsingh/iac-tutorial-example).
 
-NOTE: you can use this [example repository](https://github.com/Devopsingh/iac-tutorial) in case you get stuck in some of the labs.
+NOTE: you can use this [example repository](https://github.com/Devopsingh/iac-tutorial-example) in case you get stuck in some of the labs.
 
 ## Labs
 
