@@ -48,7 +48,7 @@ $ terraform -v
 
 ## Infrastructure as Code project
 
-Create a new directory called `terraform` inside your `iac-tutorial` repo, which we'll use to save the work done in this lab.
+Create a new directory called `terraform` inside your `iac-tutorial-example` repo, which we'll use to save the work done in this lab.
 
 ## Describe VM instance
 
@@ -256,7 +256,7 @@ Also note, that during this Terraform run, no resources have been created or cha
 
 ## Save and commit the work
 
-Save and commit the `terraform` folder created in this lab into your `iac-tutorial` repo.
+Save and commit the `terraform` folder created in this lab into your `iac-tutorial-example` repo.
 
 ## Conclusion
 
