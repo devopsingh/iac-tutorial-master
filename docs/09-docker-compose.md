@@ -30,7 +30,7 @@ Docker Compose could be compared to Terraform, but it manages only Docker contai
 
 Let's use Docker Compose [declarative syntax](https://docs.docker.com/compose/compose-file/) to describe what our local container infrastructure should look like.
 
-Create a file called `docker-compose.yml` inside your `iac-tutorial` repo with the following content:
+Create a file called `docker-compose.yml` inside your `iac-tutorial-example` repo with the following content:
 
 ```yml
 version: '3.3'
@@ -139,7 +139,7 @@ The application should be accessible to your as before at http://localhost:9292
 
 ## Save and commit the work
 
-Save and commit the `docker-compose.yml` file created in this lab into your `iac-tutorial` repo.
+Save and commit the `docker-compose.yml` file created in this lab into your `iac-tutorial-example` repo.
 
 ## Conclusion
 
