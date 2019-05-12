@@ -60,7 +60,7 @@ Let's look at our `deploy.sh`  script first to see what modules we might need to
 set -e
 
 echo "  ----- clone application repository -----  "
-git clone https://github.com/Artemmkin/raddit.git
+git clone https://github.com/devopsingh/raddit-master.git
 
 echo "  ----- install dependent gems -----  "
 cd ./raddit
@@ -86,7 +86,7 @@ Let's create a file called `deploy.yml` inside the `ansible` directory:
   tasks:
     - name: Fetch the latest version of application code
       git:
-        repo: 'https://github.com/Artemmkin/raddit.git'
+        repo: 'https://github.com/devopsingh/raddit-master.git'
         dest: /home/raddit-user/raddit
       register: clone
 
@@ -111,7 +111,7 @@ The `first task` uses git module to pull the code from GitHub.
 ```yaml
 - name: Fetch the latest version of application code
   git:
-    repo: 'https://github.com/Artemmkin/raddit.git'
+    repo: 'https://github.com/devopsingh/raddit-master.git'
     dest: /home/raddit-user/raddit
   register: clone
 ```
