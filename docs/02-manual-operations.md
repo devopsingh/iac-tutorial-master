@@ -84,7 +84,7 @@ $ sudo gem install --no-rdoc --no-ri bundler
 $ bundle version
 ```
 
-Clone the [application repo](https://github.com/Artemmkin/raddit), but first make sure `git` is installed:
+Clone the [application repo](https://github.com/devopsingh/raddit-master), but first make sure `git` is installed:
 ```bash
 $ git version
 ```
