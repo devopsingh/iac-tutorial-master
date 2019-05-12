@@ -208,7 +208,7 @@ And [here](https://github.com/devopsingh/iac-tutorial-example/blob/master/packer
 
 ## Save and commit the work
 
-Save and commit the `ansible` folder created in this lab into your `iac-tutorial` repo.
+Save and commit the `ansible` folder created in this lab into your `iac-tutorial-example` repo.
 
 ## Idempotence
 
