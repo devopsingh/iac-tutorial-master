@@ -202,9 +202,9 @@ Access the applicaion in your browser by its public IP (don't forget to specify 
 
 There's a whole lot to learn about Ansible. Try playing around with it more and create a `playbook` which provides the same system configuration as your `configuration.sh` script. Save it under the name `configuration.yml` inside the `ansible` folder, then use it inside [ansible provisioner](https://www.packer.io/docs/provisioners/ansible.html) instead of shell in your Packer template.
 
-You can find an example of `configuration.yml` playbook [here](https://github.com/Artemmkin/infrastructure-as-code-example/blob/master/ansible/configuration.yml).
+You can find an example of `configuration.yml` playbook [here](https://github.com/devopsingh/iac-tutorial-example/blob/master/ansible/configuration.yml).
 
-And [here](https://github.com/Artemmkin/infrastructure-as-code-example/blob/master/packer/raddit-base-image-ansible.json) is an example of a Packer template which uses ansible provisioner.
+And [here](https://github.com/devopsingh/iac-tutorial-example/blob/master/packer/addit-base-image-ansible.json) is an example of a Packer template which uses ansible provisioner.
 
 ## Save and commit the work
 
