@@ -46,7 +46,7 @@ If we compare Vagrant to the previous tools we've already learned, it reminds Te
 
 To start a local VM using Vagrant, we need to define its characteristics in a special file called `Vagrantfile`.
 
-Create a file named `Vagrantfile` inside `iac-tutorial` directory with the following content:
+Create a file named `Vagrantfile` inside `iac-tutorial-example` directory with the following content:
 
 ```ruby
 Vagrant.configure("2") do |config|
@@ -150,7 +150,7 @@ app.vm.provision "ansible" do |ansible|
 end
 ```
 
-In the previous lab, it was given to you as a task to create a `configuration.yml` playbook that provides the same functionality as `configuration.sh` script we had used before. If you did not do that, you can copy the playbook from [here](https://github.com/Artemmkin/infrastructure-as-code-example/blob/master/ansible/configuration.yml) (place it inside `ansible` directory). If you did create your own playbook, make sure you have a `pre_tasks` section as in [this example](https://github.com/Artemmkin/infrastructure-as-code-example/blob/master/ansible/configuration.yml).
+In the previous lab, it was given to you as a task to create a `configuration.yml` playbook that provides the same functionality as `configuration.sh` script we had used before. If you did not do that, you can copy the playbook from [here](https://github.com/devopsingh/iac-tutorial-example/blob/master/ansible/configuration.yml) (place it inside `ansible` directory). If you did create your own playbook, make sure you have a `pre_tasks` section as in [this example](https://github.com/devopsingh/iac-tutorial-example/blob/master/ansible/configuration.yml).
 
 Note, that we also added a port forwarding rule for accessing our application and instructed Vagrant to sync a local folder with application code to a specified VM folder (`/srv/raddit-app`):
 
@@ -246,7 +246,7 @@ Recreating a new dev environment was easy, took very little time and it didn't a
 
 ## Save and commit the work
 
-Save and commit the Vagrantfile created in this lab into your `iac-tutorial` repo.
+Save and commit the Vagrantfile created in this lab into your `iac-tutorial-example` repo.
 
 ## Conclusion
 
