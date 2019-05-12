@@ -38,7 +38,7 @@ $ kubectl version
 
 ## Infrastructure as Code project
 
-Create a new directory called `kubernetes` inside your `iac-tutorial` repo, which we'll use to save the work done in this lab.
+Create a new directory called `kubernetes` inside your `iac-tutorial-example` repo, which we'll use to save the work done in this lab.
 
 ## Describe Kubernetes cluster in Terraform
 
