@@ -43,7 +43,7 @@ Dockerfile contains `instructions` on how the image should be built. Here are so
 
 Let's use these instructions to create a Docker container image for our raddit application.
 
-Create a file called `Dockerfile` inside your `iac-tutorial` repo with the following content:
+Create a file called `Dockerfile` inside your `iac-tutorial-example` repo with the following content:
 
 ```
 # Use base image with Ruby installed
@@ -175,7 +175,7 @@ $ docker run --name raddit-app \
     --detach raddit
 ```
 
-Note, how we also passed an environment variable with the command to the application container. Since MongoDB is not reachable at `localhost` as it was in the previous labs, [we need to pass the environment variable with MongoDB address](https://github.com/Artemmkin/iac-tutorial/blob/master/raddit-app/app.rb#L11) to tell our application where to connect. Automatic DNS resolution of container names within a user-defined network makes it possible to simply pass the name of a MongoDB container instead of an IP address.
+Note, how we also passed an environment variable with the command to the application container. Since MongoDB is not reachable at `localhost` as it was in the previous labs, [we need to pass the environment variable with MongoDB address](https://github.com/devopsingh/raddit-master/blob/master/app.rb#L11) to tell our application where to connect. Automatic DNS resolution of container names within a user-defined network makes it possible to simply pass the name of a MongoDB container instead of an IP address.
 
 Port mapping option (`--publish`) that we passed to the command is used to make the container reachable to the outsite world.
 
@@ -185,7 +185,7 @@ The application should be accessible to your at http://localhost:9292
 
 ## Save and commit the work
 
-Save and commit the `Dockerfile` created in this lab into your `iac-tutorial` repo.
+Save and commit the `Dockerfile` created in this lab into your `iac-tutorial-example` repo.
 
 ## Conclusion
 
