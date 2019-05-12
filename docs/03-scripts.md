@@ -1,6 +1,6 @@
 # Scripts
 
-In the previous lab, you deployed the [raddit](https://github.com/Artemmkin/raddit) application by connecting to a VM via SSH and running commands in the terminal one by one. In this lab, we'll try to automate this process a little by using `scripts`.
+In the previous lab, you deployed the [raddit](https://github.com/devopsingh/raddit-master) application by connecting to a VM via SSH and running commands in the terminal one by one. In this lab, we'll try to automate this process a little by using `scripts`.
 
 ## Intro
 
@@ -31,7 +31,7 @@ Starting from this lab, we're going to use a git repo for saving all the work do
 Download a repo for the tutorial:
 
 ```bash
-$ git clone https://github.com/Artemmkin/iac-tutorial.git
+$ git clone https://github.com/devopsingh/iac-tutorial-example.git
 ```
 
 Delete git information about a remote repository:
@@ -76,7 +76,7 @@ systemctl start mongod
 systemctl enable mongod
 
 echo "  ----- copy unit file for application -----  "
-wget https://gist.githubusercontent.com/Artemmkin/ce82397cfc69d912df9cd648a8d69bec/raw/7193a36c9661c6b90e7e482d256865f085a853f2/raddit.service
+wget https://gist.githubusercontent.com/devopsingh/0d2eeb6e0875a2e512d27fcaa2a236c1/raw/2e5340a85e807a11b20e3a237fd59479d4ab3d03/raddit.service
 mv raddit.service /etc/systemd/system/raddit.service
 ```
 
@@ -91,7 +91,7 @@ Save it into `deploy.sh` file inside `scripts` directory:
 set -e
 
 echo "  ----- clone application repository -----  "
-git clone https://github.com/Artemmkin/raddit.git
+git clone https://github.com/devopsingh/raddit-master.git
 
 echo "  ----- install dependent gems -----  "
 cd ./raddit
