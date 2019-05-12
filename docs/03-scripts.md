@@ -36,7 +36,7 @@ $ git clone https://github.com/devopsingh/iac-tutorial-example.git
 
 Delete git information about a remote repository:
 ```bash
-$ cd ./iac-tutorial
+$ cd ./iac-tutorial-example
 $ git remote remove origin
 ```
 
@@ -135,7 +135,7 @@ $ gcloud --format="value(networkInterfaces[0].accessConfigs[0].natIP)" compute i
 
 ## Save and commit the work
 
-Save and commit the scripts created in this lab into your `iac-tutorial` repo.
+Save and commit the scripts created in this lab into your `iac-tutorial-example` repo.
 
 ## Conclusion
 
