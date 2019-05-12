@@ -94,7 +94,7 @@ At the time of writing the latest image of Ubuntu 16.04 which GCP provides has `
 Clone the application repo into the home directory of `raddit-user` user:
 
 ```bash
-$ git clone https://github.com/Artemmkin/raddit.git
+$ git clone https://github.com/devopsingh/raddit-master
 ```
 
 Install application dependencies using Bundler:
