@@ -4,7 +4,7 @@ To better understand the `Infrastructure as Code` (`IaC`) concept, we will first
 
 ## Intro
 
-Imagine you have developed a new cool application called [raddit](https://github.com/Artemmkin/raddit).
+Imagine you have developed a new cool application called [raddit](https://github.com/devopsingh/raddit-master).
 
 You want to run your application on a dedicated server and make it available to the Internet users.
 
