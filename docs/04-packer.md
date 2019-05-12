@@ -24,7 +24,7 @@ $ packer -v
 
 ## Infrastructure as Code project
 
-Create a new directory called `packer` inside your `iac-tutorial` repo, which we'll use to save the work done in this lab.
+Create a new directory called `packer` inside your `iac-tutorial-example` repo, which we'll use to save the work done in this lab.
 
 ## Define image builder
 
@@ -162,7 +162,7 @@ $ gcloud --format="value(networkInterfaces[0].accessConfigs[0].natIP)" compute i
 
 ## Save and commit the work
 
-Save and commit the packer template created in this lab into your `iac-tutorial` repo.
+Save and commit the packer template created in this lab into your `iac-tutorial-example` repo.
 
 ## Learning more about Packer
 
